@@ -21,6 +21,7 @@ class BetterCalculator
 
     function __construct()
     {
+        $this->display ="";
         $this->newArgument = false;
         $this->shouldReset = false;
     }
