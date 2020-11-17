@@ -1,5 +1,5 @@
 <?php
-namespace Tests\Unit;
+namespace App\Models;
 
 class Calculator
 {
@@ -30,7 +30,7 @@ class Calculator
                 return "Sorry No command found";
         }
     }
-    function getresult($a, $b, $c)
+    function calculate($a, $b, $c)
     {
         $this->a = $a;
         $this->b = $b;
