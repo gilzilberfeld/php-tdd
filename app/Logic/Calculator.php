@@ -1,5 +1,5 @@
 <?php
-namespace App\Models;
+namespace App\Logic;
 
 class Calculator
 {

@@ -2,12 +2,12 @@
 
 namespace Tests\Unit;
 
-use App\Models\Calculator;
+use App\Logic\Calculator;
 use PHPUnit\Framework\TestCase;
 
 class CalculatorTests extends TestCase
 {
-    public function test_CalculatorAdd()
+    public function test_Add()
     {
         // Arrange
         $calc = new calculator();
@@ -16,6 +16,6 @@ class CalculatorTests extends TestCase
         $result = $calc->calculate(1,2,'+');
 
         // Assert
-        $this->assertEquals(3, $result, "if this fails, you should consider painting");
+        $this->assertEquals(3, $result, "If this fails, you should consider art");
     }
 }
