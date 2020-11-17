@@ -45,6 +45,14 @@ class BasicCalculator
         return $n <= 1 ? 1 : $n * $this->factorial($n - 1);
     }
 
+    function addWithPower($param1, $powerOperator){
+        $this->param1 = $param1;
+        if ($powerOperator->isReady() == TRUE) {
+            $this->param2 = $powerOperator->invoke($param1);
+        }
+        return $this->doCalculation( '+');
+    }
+
 }
 
 
