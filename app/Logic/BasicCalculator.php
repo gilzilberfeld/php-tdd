@@ -1,7 +1,7 @@
 <?php
 namespace App\Logic;
 
-class Calculator
+class BasicCalculator
 {
     var $param1;
     var $param2;

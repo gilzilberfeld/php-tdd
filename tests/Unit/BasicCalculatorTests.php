@@ -2,15 +2,15 @@
 
 namespace Tests\Unit;
 
-use App\Logic\Calculator;
+use App\Logic\BasicCalculator;
 use PHPUnit\Framework\TestCase;
 
-class CalculatorTests extends TestCase
+class BasicCalculatorTests extends TestCase
 {
     public function test_Add()
     {
         // Arrange
-        $calc = new calculator();
+        $calc = new BasicCalculator();
 
         // Act
         $result = $calc->calculate(1,2,'+');
