@@ -52,4 +52,6 @@ $app->singleton(
 |
 */
 
+$app->withFacades();
+
 return $app;

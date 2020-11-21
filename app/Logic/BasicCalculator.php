@@ -47,9 +47,7 @@ class BasicCalculator
 
     function addWithPower($param1, $powerOperator){
         $this->param1 = $param1;
-        if ($powerOperator->isReady() == TRUE) {
-            $this->param2 = $powerOperator->invoke($param1);
-        }
+        $this->param2 = $powerOperator->invoke($param1);
         return $this->doCalculation( '+');
     }
 

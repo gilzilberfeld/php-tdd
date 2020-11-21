@@ -19,6 +19,4 @@ class BasicCalculatorTests extends TestCase
         $this->assertEquals(3, $result, "If this fails, you should consider art");
     }
 
-
-
 }

@@ -10,5 +10,6 @@ class BetterCalculatorTest extends TestCase
 
     public function test()
     {
+        $this -> fail("Obviously");
     }
 }
